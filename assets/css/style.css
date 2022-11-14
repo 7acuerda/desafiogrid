@@ -1,5 +1,6 @@
 header{
-    background-color: chocolate;
+    color: aliceblue;
+    background-color: #004080;
     grid-area: cabecera;
 }
 
@@ -16,8 +17,10 @@ main {
 }
 
 footer{
-    background-color: #000;
-    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: #004080;
     grid-area: pie;
 
 }
