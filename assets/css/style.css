@@ -1,0 +1,34 @@
+header{
+    background-color: chocolate;
+    grid-area: cabecera;
+}
+
+aside {
+    background-color: orange;
+    grid-area: menu;
+
+}
+
+main {
+    background-color: #999;
+    grid-area: principal;
+
+}
+
+footer{
+    background-color: #000;
+    color: white;
+    grid-area: pie;
+
+}
+
+
+body{
+    display: grid;
+    grid-template-areas: 
+    
+    "cabecera   cabecera"
+    "menu       principal"
+    "pie        pie";
+
+}
