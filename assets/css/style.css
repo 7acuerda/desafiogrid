@@ -1,25 +1,31 @@
-header{
-    text-align: center;
-    padding: 1rem;
+header {
     color: aliceblue;
     background-color: #004080;
     grid-area: cabecera;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 aside {
     background-color: #999;
     grid-area: menu;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 main {
     background-color: #999;
     grid-area: principal;
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
 
 }
 
-footer{
-    padding: 1rem;
+footer {
     text-align: center;
     background-color: white;
     color: #004080;
@@ -28,13 +34,26 @@ footer{
 }
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
     display: grid;
-    grid-template-areas: 
-    
-    "cabecera   cabecera"
-    "menu       principal"
-    "pie        pie";
+    grid-template-areas:
 
+        "cabecera   cabecera"
+        "menu       principal"
+        "pie        pie";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows:
+        auto 1fr auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex-container{
+    background-color: rgb(190, 190, 190);
 }
