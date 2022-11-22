@@ -60,3 +60,31 @@ a {
 .flex-container{
     background-color: rgb(190, 190, 190);
 }
+
+.card{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    width: 20%;
+    border: 1px solid #888;
+    height: 50%;
+    justify-content: center;
+
+}
+.card-img-top{
+    background-color: #004080;
+    height: 100px;
+}
+/* .card-body{
+} */
+.text-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+h3,h4,h5 {
+    margin: 0;
+}
